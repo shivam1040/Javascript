@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    margin-top:5vh; 
+    background-color:black;
+    height: .1vh;
+}
+
+.inputs{
+    margin-top: 5%;
+    width: 100%;
+   
+}
+
+.heading{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 2.5vh;
+}
+
+.box{
+    display: inline-block;
+    width: 40%;
+}
+
+.button{
+    display: inline-block;
+    color: blue;
+}
+
+.inputLine{
+    background-color:black;
+    height: .1vh;
+    width: 90%;
+}
+
+.result{
+    border: solid black;
+    width: 40%;
+    height: 5vh;
+    font-size: 2.5vh;
+    text-align: center;
+    margin-left: 30%;
+    line-height: 5vh;
+   
+}

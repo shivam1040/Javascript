@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 2</title>
+</head>
+<body>
+    <hr class="top">
+    <div class="layout">
+    <div class="checkButton">
+    <div class="insuranceBox">
+        <p class="head"><strong>Insurance Policy App</strong></p>
+        <p class="name"><strong>Employee Name<strong</p>
+        <input type="inputBox" class="boxE" id="input" pattern="[0-9]">
+        <p class="gender">Gender</p>
+        <div class="genderRadios">
+        <input type="radio" class="boxG" id="input" name="gender" value="m" pattern="[0-9]">
+        <label for="html" class="boxG">Male</label>
+        <input type="radio" class="boxG" id="input1" name="gender" value="f" pattern="[0-9]">
+        <label for="html" class="boxG">Female</label><br>
+        </div>
+        <p class="dob">Date Of Birth</p>
+        <input type="date" id="birthday" name="birthday" value="">
+        <p class="age">Age</p>
+        <input type="text" id="ageYear" name="lname" placeholder="" disabled>
+        <br>
+        <br>
+    </div>
+        <button class="check" type="button">Check</button>
+    </div>
+    <div class="statusBox"></div>
+    
+    <div class="status">
+        <div class="statusResult">
+            <h2 class="result"><strong>Eligibility Status: </strong><strong id="final"></strong></h2>
+        </div>
+        <p class="condition">Conditions<br>in following conditions only<br>employee is eligible for insurance</p>
+        <ol class="condition">
+            <li>If Gender is Male and age is<br>between 25 to 65</li>
+            <li>If Gender is Female and age is<br>between 21 to 71</li>
+          </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>

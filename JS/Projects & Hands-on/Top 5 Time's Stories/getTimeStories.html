@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeStories</title>
+</head>
+<body>
+    <script>var elementObj;
+        var result=[];
+        var links;
+        async function fetchTest() {
+            let response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('https://time.com')}`);
+            elementObj = await response.json();
+            elementObj= await elementObj.contents;
+            let parser = new DOMParser();
+            const doc = parser.parseFromString(elementObj, 'text/html');
+            links=doc.querySelectorAll('ol li article div h2 a');
+        }
+        
+        (async() => {
+            await fetchTest();
+            for(let i=0; i<links.length; i++){
+                result.push({
+                   "title": links[i].innerHTML,
+                   "link": "https://time.com"+links[i].pathname
+                });
+            }
+            document.write(JSON.stringify(result));
+        })();</script>
+</body>
+</html>

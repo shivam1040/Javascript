@@ -1,0 +1,18 @@
+.contain{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 32px;
+}
+button{
+    font-size: 22px;
+    background: honeydew;
+    width: 30px;
+    height: 30px;
+}
+.calc{
+    display: inline-block; /* ensures only the required screen space is taken not the entire block*/
+}

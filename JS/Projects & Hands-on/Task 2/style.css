@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    margin-top:5vh; 
+    background-color:black;
+    height: .1vh;
+}
+
+.insuranceBox{
+    width: 100%;
+    border: solid black;
+    
+}
+
+.head{
+    color: red;
+    font-size: 2.5vw;
+    margin-top: 2%;
+}
+
+.name{
+    font-size: 2.5vh;
+    margin-left: 2%;
+}
+
+.boxE{
+    width: 90%;
+    height: 2vh;
+}
+
+.gender{
+    font-size: 2.5vh;
+    margin-left: 2%;
+}
+
+.genderRadios{
+    margin-top: -2vh;
+    margin-left: 3%;
+    
+}
+
+.boxG{
+   height: 2vh;
+    font-size: 2vmin;
+}
+
+.dob{
+    font-size: 2.5vh;
+    margin-left: 2%; 
+}
+
+#birthday{
+    margin-left: 2%; 
+    width: 70%;
+    margin-left: 3%;
+    height: 2vh;
+}
+
+.age{
+    font-size: 2.5vh;
+    margin-left: 2%;  
+}
+
+#ageYear{
+    margin-left: 3%;
+    width: 60%;
+    height: 2vh;
+}
+
+.checkButton{
+    width: 30%;
+    
+}
+.check{
+    float: right;
+    height: 3vh;
+    font-size: 2vh;
+    position: relative;
+    margin-top: 2%;
+    
+}
+
+.statusBox{
+    border-left: 6px solid black;
+  height: 70vh;
+  position: absolute;
+  top: 10vh;
+  left:50vw;
+}
+
+.layout{
+    display: inline-flex;
+    column-gap: 10vh;
+    justify-content: center;
+    width: 100%;
+   margin-top: 5%;
+}
+
+.statusResult{
+    border: solid black;
+    width: 30vw; 
+}
+
+.result{
+    font-size: 2vw;
+}
+
+.status{
+  
+   height: 40vh;
+}
+
+.condition{
+   
+    font-size: 1.2vw;
+}

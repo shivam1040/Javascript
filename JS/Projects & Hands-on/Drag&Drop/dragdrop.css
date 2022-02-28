@@ -1,0 +1,28 @@
+body{
+    background: lightcyan;
+}
+
+.imgbox{
+    background-image: url('a.png');
+    position:relative;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.emptybox{
+    display: inline-block;
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background-color: white;
+    border: 3px black solid;
+}
+
+.hold{
+    border: solid red 4px;
+}
+
+.hide{
+    display: none;
+}
